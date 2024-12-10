@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(.*\\.(css|png|jpg|jpeg|gif|svg|js))",
+            "dest": "/$1"
+        },
+        {
+            "src": "/",
+            "dest": "/tic_tac_toe.html"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/tic_tac_toe.html"
+        }
+    ]
+  }
